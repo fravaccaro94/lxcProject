@@ -3,9 +3,11 @@ Created on 6 may. 2022
 
 @author: francesco.vaccaro
 '''
+#libraries
 import logging
 import sys
 from sqlalchemy.sql.expression import except_
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
